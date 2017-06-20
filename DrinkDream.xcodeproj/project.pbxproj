@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A114AD5219ABAA8900615EC8 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A114AD5119ABAA8900615EC8 /* background.jpg */; };
+		A116DAEA19C1C30300A4012E /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = A116DAE919C1C30300A4012E /* light.png */; };
+		A151A5AE19A24C1D00AAD10A /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A151A5AD19A24C1D00AAD10A /* SettingsTableViewController.m */; };
+		A15856D519C01C1A00D98F5E /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A15856D219C01C1A00D98F5E /* clock.png */; };
+		A15856D619C01C1A00D98F5E /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = A15856D319C01C1A00D98F5E /* calculator.png */; };
+		A15856D719C01C1A00D98F5E /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = A15856D419C01C1A00D98F5E /* information.png */; };
+		A15856DD19C01EC900D98F5E /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = A15856DC19C01EC900D98F5E /* user.png */; };
+		A1B4782B19C2E27D00F037B7 /* addicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B4782A19C2E27D00F037B7 /* addicon.png */; };
+		A1B4782F19C30B0200F037B7 /* waterCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B4782E19C30B0200F037B7 /* waterCenter.png */; };
+		C703E9FF19B9A1B300FC7B54 /* UsePlist.m in Sources */ = {isa = PBXBuildFile; fileRef = C703E9FE19B9A1B300FC7B54 /* UsePlist.m */; };
+		C703EA0219B9A53400FC7B54 /* GetCurrentTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C703EA0119B9A53400FC7B54 /* GetCurrentTime.m */; };
+		C708E3EA19AAD417002BDE90 /* SpotLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C708E3E919AAD417002BDE90 /* SpotLightViewController.m */; };
+		C708E3ED19AB0377002BDE90 /* ClockTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C708E3EC19AB0377002BDE90 /* ClockTableViewController.m */; };
+		C708E3F019AB17BD002BDE90 /* EditClockTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C708E3EF19AB17BD002BDE90 /* EditClockTableViewController.m */; };
+		C7477CD019932C9800D8A8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7477CCF19932C9800D8A8DB /* Foundation.framework */; };
+		C7477CD219932C9800D8A8DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7477CD119932C9800D8A8DB /* CoreGraphics.framework */; };
+		C7477CD419932C9800D8A8DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7477CD319932C9800D8A8DB /* UIKit.framework */; };
+		C7477CDA19932C9800D8A8DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7477CD819932C9800D8A8DB /* InfoPlist.strings */; };
+		C7477CDC19932C9800D8A8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7477CDB19932C9800D8A8DB /* main.m */; };
+		C7477CE019932C9800D8A8DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7477CDF19932C9800D8A8DB /* AppDelegate.m */; };
+		C7477CE319932C9800D8A8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7477CE119932C9800D8A8DB /* Main.storyboard */; };
+		C7477CE619932C9800D8A8DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7477CE519932C9800D8A8DB /* ViewController.m */; };
+		C7477CE819932C9800D8A8DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7477CE719932C9800D8A8DB /* Images.xcassets */; };
+		C7477CEF19932C9800D8A8DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7477CEE19932C9800D8A8DB /* XCTest.framework */; };
+		C7477CF019932C9800D8A8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7477CCF19932C9800D8A8DB /* Foundation.framework */; };
+		C7477CF119932C9800D8A8DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7477CD319932C9800D8A8DB /* UIKit.framework */; };
+		C7477CF919932C9800D8A8DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7477CF719932C9800D8A8DB /* InfoPlist.strings */; };
+		C7477CFB19932C9800D8A8DB /* DrinkDreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7477CFA19932C9800D8A8DB /* DrinkDreamTests.m */; };
+		C7477D0619939C4000D8A8DB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7477D0519939C4000D8A8DB /* MainViewController.m */; };
+		C75E49C119A5EE310085222E /* Setup_44x44.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E49C019A5EE310085222E /* Setup_44x44.png */; };
+		C75E49C319A5F5600085222E /* Add-22x22.png in Resources */ = {isa = PBXBuildFile; fileRef = C75E49C219A5F5600085222E /* Add-22x22.png */; };
+		C777142519AE0CAF00906AA4 /* start300.png in Resources */ = {isa = PBXBuildFile; fileRef = C777142419AE0CAF00906AA4 /* start300.png */; };
+		C778F4BF19A350F90051E66B /* Wallpaper-Parallax-10.png in Resources */ = {isa = PBXBuildFile; fileRef = C778F4BE19A350F90051E66B /* Wallpaper-Parallax-10.png */; };
+		C778F4C119A352700051E66B /* Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C778F4C019A352700051E66B /* Wallpaper.png */; };
+		C7854BBE19B0A27F002EA4E2 /* Navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = C7854BBC19B0A27F002EA4E2 /* Navigation.png */; };
+		C7854BBF19B0A27F002EA4E2 /* Setup.png in Resources */ = {isa = PBXBuildFile; fileRef = C7854BBD19B0A27F002EA4E2 /* Setup.png */; };
+		C79207FD19A2DDDB0001978A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C79207FC19A2DDDB0001978A /* User.m */; };
+		C794777919AF4F1900F506A0 /* water-bottle1.png in Resources */ = {isa = PBXBuildFile; fileRef = C794777319AF4F1900F506A0 /* water-bottle1.png */; };
+		C794777A19AF4F1900F506A0 /* water-bottle2.png in Resources */ = {isa = PBXBuildFile; fileRef = C794777419AF4F1900F506A0 /* water-bottle2.png */; };
+		C794777B19AF4F1900F506A0 /* water-bottle3.png in Resources */ = {isa = PBXBuildFile; fileRef = C794777519AF4F1900F506A0 /* water-bottle3.png */; };
+		C794777C19AF4F1900F506A0 /* water-bottle4.png in Resources */ = {isa = PBXBuildFile; fileRef = C794777619AF4F1900F506A0 /* water-bottle4.png */; };
+		C794777D19AF4F1900F506A0 /* water-bottle5.png in Resources */ = {isa = PBXBuildFile; fileRef = C794777719AF4F1900F506A0 /* water-bottle5.png */; };
+		C794777E19AF4F1900F506A0 /* water-coustom.png in Resources */ = {isa = PBXBuildFile; fileRef = C794777819AF4F1900F506A0 /* water-coustom.png */; };
+		C7D9334F19AC14B700584FF9 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9334E19AC14B700584FF9 /* wall.png */; };
+		C7D9335519AC16EE00584FF9 /* wall1_600.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9335419AC16EE00584FF9 /* wall1_600.png */; };
+		C7D9335719AC8E8100584FF9 /* 1409064249_time-24-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9335619AC8E8100584FF9 /* 1409064249_time-24-128.png */; };
+		C7D9335919AC926400584FF9 /* 1409065231_Streamline-72-24.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9335819AC926400584FF9 /* 1409065231_Streamline-72-24.png */; };
+		C7D9335B19ACB76100584FF9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D9335A19ACB76100584FF9 /* libsqlite3.0.dylib */; };
+		C7D9335F19ACBAC700584FF9 /* waterCups.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9335E19ACBAC700584FF9 /* waterCups.png */; };
+		C7D9336119AD816F00584FF9 /* DrinkSQL.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C7D9336019AD816F00584FF9 /* DrinkSQL.sqlite */; };
+		C7D9336419ADB45200584FF9 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9336219ADB45200584FF9 /* Add.png */; };
+		C7D9336519ADB45200584FF9 /* List_bullets.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9336319ADB45200584FF9 /* List_bullets.png */; };
+		C7D9336719ADB8DC00584FF9 /* Edit.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D9336619ADB8DC00584FF9 /* Edit.png */; };
+		C7D9336A19ADBE8100584FF9 /* SuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D9336919ADBE8100584FF9 /* SuggestViewController.m */; };
+		C7ECA5611998771D0079743E /* Account_card.png in Resources */ = {isa = PBXBuildFile; fileRef = C7ECA55F1998771D0079743E /* Account_card.png */; };
+		C7F87296199A4FF700306D0E /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F87295199A4FF700306D0E /* ProfileViewController.m */; };
+		C7F99E861994F120004F54ED /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F99E851994F120004F54ED /* EditProfileViewController.m */; };
+		C7F99E8C1994F14F004F54ED /* SportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F99E8B1994F14F004F54ED /* SportsViewController.m */; };
+		C7F99E8F1994F15E004F54ED /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F99E8E1994F15E004F54ED /* AnalyticsViewController.m */; };
+		C7FECBE619ADC7080009599A /* deserve_it.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FECBE519ADC7080009599A /* deserve_it.png */; };
+		C7FECBF819AE0BE70009599A /* START.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FECBF719AE0BE70009599A /* START.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7477CF219932C9800D8A8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7477CC419932C9800D8A8DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7477CCB19932C9800D8A8DB;
+			remoteInfo = DrinkDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A114AD5119ABAA8900615EC8 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		A116DAE919C1C30300A4012E /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		A151A5AC19A24C1D00AAD10A /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		A151A5AD19A24C1D00AAD10A /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		A15856D219C01C1A00D98F5E /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		A15856D319C01C1A00D98F5E /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		A15856D419C01C1A00D98F5E /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = information.png; sourceTree = "<group>"; };
+		A15856DC19C01EC900D98F5E /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		A1B4782A19C2E27D00F037B7 /* addicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addicon.png; sourceTree = "<group>"; };
+		A1B4782E19C30B0200F037B7 /* waterCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterCenter.png; sourceTree = "<group>"; };
+		C703E9FD19B9A1B300FC7B54 /* UsePlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsePlist.h; sourceTree = "<group>"; };
+		C703E9FE19B9A1B300FC7B54 /* UsePlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsePlist.m; sourceTree = "<group>"; };
+		C703EA0019B9A53400FC7B54 /* GetCurrentTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCurrentTime.h; sourceTree = "<group>"; };
+		C703EA0119B9A53400FC7B54 /* GetCurrentTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCurrentTime.m; sourceTree = "<group>"; };
+		C708E3E819AAD417002BDE90 /* SpotLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotLightViewController.h; sourceTree = "<group>"; };
+		C708E3E919AAD417002BDE90 /* SpotLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotLightViewController.m; sourceTree = "<group>"; };
+		C708E3EB19AB0377002BDE90 /* ClockTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockTableViewController.h; sourceTree = "<group>"; };
+		C708E3EC19AB0377002BDE90 /* ClockTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockTableViewController.m; sourceTree = "<group>"; };
+		C708E3EE19AB17BD002BDE90 /* EditClockTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditClockTableViewController.h; sourceTree = "<group>"; };
+		C708E3EF19AB17BD002BDE90 /* EditClockTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditClockTableViewController.m; sourceTree = "<group>"; };
+		C7477CCC19932C9800D8A8DB /* DrinkDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7477CCF19932C9800D8A8DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7477CD119932C9800D8A8DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7477CD319932C9800D8A8DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7477CD719932C9800D8A8DB /* DrinkDream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrinkDream-Info.plist"; sourceTree = "<group>"; };
+		C7477CD919932C9800D8A8DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7477CDB19932C9800D8A8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7477CDD19932C9800D8A8DB /* DrinkDream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrinkDream-Prefix.pch"; sourceTree = "<group>"; };
+		C7477CDE19932C9800D8A8DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7477CDF19932C9800D8A8DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7477CE219932C9800D8A8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7477CE419932C9800D8A8DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7477CE519932C9800D8A8DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7477CE719932C9800D8A8DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7477CED19932C9800D8A8DB /* DrinkDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7477CEE19932C9800D8A8DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C7477CF619932C9800D8A8DB /* DrinkDreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrinkDreamTests-Info.plist"; sourceTree = "<group>"; };
+		C7477CF819932C9800D8A8DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7477CFA19932C9800D8A8DB /* DrinkDreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkDreamTests.m; sourceTree = "<group>"; };
+		C7477D0419939C4000D8A8DB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C7477D0519939C4000D8A8DB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C75E49C019A5EE310085222E /* Setup_44x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setup_44x44.png; sourceTree = "<group>"; };
+		C75E49C219A5F5600085222E /* Add-22x22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-22x22.png"; sourceTree = "<group>"; };
+		C777142419AE0CAF00906AA4 /* start300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start300.png; sourceTree = "<group>"; };
+		C778F4BE19A350F90051E66B /* Wallpaper-Parallax-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wallpaper-Parallax-10.png"; sourceTree = "<group>"; };
+		C778F4C019A352700051E66B /* Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallpaper.png; sourceTree = "<group>"; };
+		C7854BBC19B0A27F002EA4E2 /* Navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Navigation.png; sourceTree = "<group>"; };
+		C7854BBD19B0A27F002EA4E2 /* Setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setup.png; sourceTree = "<group>"; };
+		C79207FB19A2DDDB0001978A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C79207FC19A2DDDB0001978A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C794777319AF4F1900F506A0 /* water-bottle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-bottle1.png"; sourceTree = "<group>"; };
+		C794777419AF4F1900F506A0 /* water-bottle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-bottle2.png"; sourceTree = "<group>"; };
+		C794777519AF4F1900F506A0 /* water-bottle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-bottle3.png"; sourceTree = "<group>"; };
+		C794777619AF4F1900F506A0 /* water-bottle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-bottle4.png"; sourceTree = "<group>"; };
+		C794777719AF4F1900F506A0 /* water-bottle5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-bottle5.png"; sourceTree = "<group>"; };
+		C794777819AF4F1900F506A0 /* water-coustom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-coustom.png"; sourceTree = "<group>"; };
+		C7D9334E19AC14B700584FF9 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		C7D9335419AC16EE00584FF9 /* wall1_600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall1_600.png; sourceTree = "<group>"; };
+		C7D9335619AC8E8100584FF9 /* 1409064249_time-24-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1409064249_time-24-128.png"; sourceTree = "<group>"; };
+		C7D9335819AC926400584FF9 /* 1409065231_Streamline-72-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1409065231_Streamline-72-24.png"; sourceTree = "<group>"; };
+		C7D9335A19ACB76100584FF9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C7D9335E19ACBAC700584FF9 /* waterCups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterCups.png; sourceTree = "<group>"; };
+		C7D9336019AD816F00584FF9 /* DrinkSQL.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DrinkSQL.sqlite; sourceTree = "<group>"; };
+		C7D9336219ADB45200584FF9 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		C7D9336319ADB45200584FF9 /* List_bullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_bullets.png; sourceTree = "<group>"; };
+		C7D9336619ADB8DC00584FF9 /* Edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edit.png; sourceTree = "<group>"; };
+		C7D9336819ADBE8100584FF9 /* SuggestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestViewController.h; sourceTree = "<group>"; };
+		C7D9336919ADBE8100584FF9 /* SuggestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestViewController.m; sourceTree = "<group>"; };
+		C7ECA55F1998771D0079743E /* Account_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Account_card.png; sourceTree = "<group>"; };
+		C7F87294199A4FF700306D0E /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		C7F87295199A4FF700306D0E /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		C7F99E841994F120004F54ED /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		C7F99E851994F120004F54ED /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		C7F99E8A1994F14F004F54ED /* SportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsViewController.h; sourceTree = "<group>"; };
+		C7F99E8B1994F14F004F54ED /* SportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsViewController.m; sourceTree = "<group>"; };
+		C7F99E8D1994F15E004F54ED /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
+		C7F99E8E1994F15E004F54ED /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
+		C7FECBE519ADC7080009599A /* deserve_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deserve_it.png; sourceTree = "<group>"; };
+		C7FECBF719AE0BE70009599A /* START.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = START.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7477CC919932C9800D8A8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D9335B19ACB76100584FF9 /* libsqlite3.0.dylib in Frameworks */,
+				C7477CD219932C9800D8A8DB /* CoreGraphics.framework in Frameworks */,
+				C7477CD419932C9800D8A8DB /* UIKit.framework in Frameworks */,
+				C7477CD019932C9800D8A8DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7477CEA19932C9800D8A8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7477CEF19932C9800D8A8DB /* XCTest.framework in Frameworks */,
+				C7477CF119932C9800D8A8DB /* UIKit.framework in Frameworks */,
+				C7477CF019932C9800D8A8DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7477CC319932C9800D8A8DB = {
+			isa = PBXGroup;
+			children = (
+				C7477CD519932C9800D8A8DB /* DrinkDream */,
+				C7477CF419932C9800D8A8DB /* DrinkDreamTests */,
+				C7477CCE19932C9800D8A8DB /* Frameworks */,
+				C7477CCD19932C9800D8A8DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7477CCD19932C9800D8A8DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7477CCC19932C9800D8A8DB /* DrinkDream.app */,
+				C7477CED19932C9800D8A8DB /* DrinkDreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7477CCE19932C9800D8A8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7D9335A19ACB76100584FF9 /* libsqlite3.0.dylib */,
+				C7477CCF19932C9800D8A8DB /* Foundation.framework */,
+				C7477CD119932C9800D8A8DB /* CoreGraphics.framework */,
+				C7477CD319932C9800D8A8DB /* UIKit.framework */,
+				C7477CEE19932C9800D8A8DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7477CD519932C9800D8A8DB /* DrinkDream */ = {
+			isa = PBXGroup;
+			children = (
+				C7D9336019AD816F00584FF9 /* DrinkSQL.sqlite */,
+				C7477CDE19932C9800D8A8DB /* AppDelegate.h */,
+				C7477CDF19932C9800D8A8DB /* AppDelegate.m */,
+				C7477CE119932C9800D8A8DB /* Main.storyboard */,
+				C79207FB19A2DDDB0001978A /* User.h */,
+				C79207FC19A2DDDB0001978A /* User.m */,
+				C7477CE419932C9800D8A8DB /* ViewController.h */,
+				C7477CE519932C9800D8A8DB /* ViewController.m */,
+				A151A5AC19A24C1D00AAD10A /* SettingsTableViewController.h */,
+				A151A5AD19A24C1D00AAD10A /* SettingsTableViewController.m */,
+				C7477D0419939C4000D8A8DB /* MainViewController.h */,
+				C7477D0519939C4000D8A8DB /* MainViewController.m */,
+				C7F87294199A4FF700306D0E /* ProfileViewController.h */,
+				C7F87295199A4FF700306D0E /* ProfileViewController.m */,
+				C7F99E841994F120004F54ED /* EditProfileViewController.h */,
+				C7F99E851994F120004F54ED /* EditProfileViewController.m */,
+				C708E3EB19AB0377002BDE90 /* ClockTableViewController.h */,
+				C708E3EC19AB0377002BDE90 /* ClockTableViewController.m */,
+				C708E3EE19AB17BD002BDE90 /* EditClockTableViewController.h */,
+				C708E3EF19AB17BD002BDE90 /* EditClockTableViewController.m */,
+				C7F99E8D1994F15E004F54ED /* AnalyticsViewController.h */,
+				C7F99E8E1994F15E004F54ED /* AnalyticsViewController.m */,
+				C708E3E819AAD417002BDE90 /* SpotLightViewController.h */,
+				C708E3E919AAD417002BDE90 /* SpotLightViewController.m */,
+				C7F99E8A1994F14F004F54ED /* SportsViewController.h */,
+				C7F99E8B1994F14F004F54ED /* SportsViewController.m */,
+				C7D9336819ADBE8100584FF9 /* SuggestViewController.h */,
+				C7D9336919ADBE8100584FF9 /* SuggestViewController.m */,
+				C7477CE719932C9800D8A8DB /* Images.xcassets */,
+				C778F4B919A328850051E66B /* Images */,
+				C7477CD619932C9800D8A8DB /* Supporting Files */,
+				C703E9FD19B9A1B300FC7B54 /* UsePlist.h */,
+				C703E9FE19B9A1B300FC7B54 /* UsePlist.m */,
+				C703EA0019B9A53400FC7B54 /* GetCurrentTime.h */,
+				C703EA0119B9A53400FC7B54 /* GetCurrentTime.m */,
+			);
+			path = DrinkDream;
+			sourceTree = "<group>";
+		};
+		C7477CD619932C9800D8A8DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7477CD719932C9800D8A8DB /* DrinkDream-Info.plist */,
+				C7477CD819932C9800D8A8DB /* InfoPlist.strings */,
+				C7477CDB19932C9800D8A8DB /* main.m */,
+				C7477CDD19932C9800D8A8DB /* DrinkDream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7477CF419932C9800D8A8DB /* DrinkDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7477CFA19932C9800D8A8DB /* DrinkDreamTests.m */,
+				C7477CF519932C9800D8A8DB /* Supporting Files */,
+			);
+			path = DrinkDreamTests;
+			sourceTree = "<group>";
+		};
+		C7477CF519932C9800D8A8DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7477CF619932C9800D8A8DB /* DrinkDreamTests-Info.plist */,
+				C7477CF719932C9800D8A8DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C778F4B919A328850051E66B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4782E19C30B0200F037B7 /* waterCenter.png */,
+				A116DAE919C1C30300A4012E /* light.png */,
+				A15856DC19C01EC900D98F5E /* user.png */,
+				A15856D219C01C1A00D98F5E /* clock.png */,
+				A15856D319C01C1A00D98F5E /* calculator.png */,
+				A15856D419C01C1A00D98F5E /* information.png */,
+				C794777319AF4F1900F506A0 /* water-bottle1.png */,
+				C794777419AF4F1900F506A0 /* water-bottle2.png */,
+				C794777519AF4F1900F506A0 /* water-bottle3.png */,
+				C794777619AF4F1900F506A0 /* water-bottle4.png */,
+				C794777719AF4F1900F506A0 /* water-bottle5.png */,
+				C794777819AF4F1900F506A0 /* water-coustom.png */,
+				C7854BBC19B0A27F002EA4E2 /* Navigation.png */,
+				C7854BBD19B0A27F002EA4E2 /* Setup.png */,
+				C7FECBF719AE0BE70009599A /* START.png */,
+				C777142419AE0CAF00906AA4 /* start300.png */,
+				C7D9336619ADB8DC00584FF9 /* Edit.png */,
+				A1B4782A19C2E27D00F037B7 /* addicon.png */,
+				C7D9336219ADB45200584FF9 /* Add.png */,
+				C7FECBE519ADC7080009599A /* deserve_it.png */,
+				C7D9336319ADB45200584FF9 /* List_bullets.png */,
+				C7D9335E19ACBAC700584FF9 /* waterCups.png */,
+				A114AD5119ABAA8900615EC8 /* background.jpg */,
+				C7D9335819AC926400584FF9 /* 1409065231_Streamline-72-24.png */,
+				C7D9335619AC8E8100584FF9 /* 1409064249_time-24-128.png */,
+				C7D9334E19AC14B700584FF9 /* wall.png */,
+				C7D9335419AC16EE00584FF9 /* wall1_600.png */,
+				C778F4BE19A350F90051E66B /* Wallpaper-Parallax-10.png */,
+				C75E49C019A5EE310085222E /* Setup_44x44.png */,
+				C75E49C219A5F5600085222E /* Add-22x22.png */,
+				C778F4C019A352700051E66B /* Wallpaper.png */,
+				C7ECA55F1998771D0079743E /* Account_card.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7477CCB19932C9800D8A8DB /* DrinkDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7477CFE19932C9800D8A8DB /* Build configuration list for PBXNativeTarget "DrinkDream" */;
+			buildPhases = (
+				C7477CC819932C9800D8A8DB /* Sources */,
+				C7477CC919932C9800D8A8DB /* Frameworks */,
+				C7477CCA19932C9800D8A8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkDream;
+			productName = DrinkDream;
+			productReference = C7477CCC19932C9800D8A8DB /* DrinkDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7477CEC19932C9800D8A8DB /* DrinkDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7477D0119932C9800D8A8DB /* Build configuration list for PBXNativeTarget "DrinkDreamTests" */;
+			buildPhases = (
+				C7477CE919932C9800D8A8DB /* Sources */,
+				C7477CEA19932C9800D8A8DB /* Frameworks */,
+				C7477CEB19932C9800D8A8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7477CF319932C9800D8A8DB /* PBXTargetDependency */,
+			);
+			name = DrinkDreamTests;
+			productName = DrinkDreamTests;
+			productReference = C7477CED19932C9800D8A8DB /* DrinkDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7477CC419932C9800D8A8DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Systex UCom";
+				TargetAttributes = {
+					C7477CEC19932C9800D8A8DB = {
+						TestTargetID = C7477CCB19932C9800D8A8DB;
+					};
+				};
+			};
+			buildConfigurationList = C7477CC719932C9800D8A8DB /* Build configuration list for PBXProject "DrinkDream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7477CC319932C9800D8A8DB;
+			productRefGroup = C7477CCD19932C9800D8A8DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7477CCB19932C9800D8A8DB /* DrinkDream */,
+				C7477CEC19932C9800D8A8DB /* DrinkDreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7477CCA19932C9800D8A8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C777142519AE0CAF00906AA4 /* start300.png in Resources */,
+				C7854BBF19B0A27F002EA4E2 /* Setup.png in Resources */,
+				C7854BBE19B0A27F002EA4E2 /* Navigation.png in Resources */,
+				C75E49C119A5EE310085222E /* Setup_44x44.png in Resources */,
+				C794777C19AF4F1900F506A0 /* water-bottle4.png in Resources */,
+				C794777E19AF4F1900F506A0 /* water-coustom.png in Resources */,
+				C75E49C319A5F5600085222E /* Add-22x22.png in Resources */,
+				C794777919AF4F1900F506A0 /* water-bottle1.png in Resources */,
+				C778F4C119A352700051E66B /* Wallpaper.png in Resources */,
+				C7D9335919AC926400584FF9 /* 1409065231_Streamline-72-24.png in Resources */,
+				C7D9336519ADB45200584FF9 /* List_bullets.png in Resources */,
+				A15856D619C01C1A00D98F5E /* calculator.png in Resources */,
+				A15856D719C01C1A00D98F5E /* information.png in Resources */,
+				C7D9336419ADB45200584FF9 /* Add.png in Resources */,
+				A15856DD19C01EC900D98F5E /* user.png in Resources */,
+				C794777D19AF4F1900F506A0 /* water-bottle5.png in Resources */,
+				C778F4BF19A350F90051E66B /* Wallpaper-Parallax-10.png in Resources */,
+				C794777B19AF4F1900F506A0 /* water-bottle3.png in Resources */,
+				C7477CE819932C9800D8A8DB /* Images.xcassets in Resources */,
+				C7ECA5611998771D0079743E /* Account_card.png in Resources */,
+				A1B4782B19C2E27D00F037B7 /* addicon.png in Resources */,
+				C7D9335519AC16EE00584FF9 /* wall1_600.png in Resources */,
+				C7FECBF819AE0BE70009599A /* START.png in Resources */,
+				C7477CDA19932C9800D8A8DB /* InfoPlist.strings in Resources */,
+				C7477CE319932C9800D8A8DB /* Main.storyboard in Resources */,
+				C7D9335F19ACBAC700584FF9 /* waterCups.png in Resources */,
+				A114AD5219ABAA8900615EC8 /* background.jpg in Resources */,
+				C7D9334F19AC14B700584FF9 /* wall.png in Resources */,
+				C794777A19AF4F1900F506A0 /* water-bottle2.png in Resources */,
+				A116DAEA19C1C30300A4012E /* light.png in Resources */,
+				A1B4782F19C30B0200F037B7 /* waterCenter.png in Resources */,
+				A15856D519C01C1A00D98F5E /* clock.png in Resources */,
+				C7FECBE619ADC7080009599A /* deserve_it.png in Resources */,
+				C7D9335719AC8E8100584FF9 /* 1409064249_time-24-128.png in Resources */,
+				C7D9336119AD816F00584FF9 /* DrinkSQL.sqlite in Resources */,
+				C7D9336719ADB8DC00584FF9 /* Edit.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7477CEB19932C9800D8A8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7477CF919932C9800D8A8DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7477CC819932C9800D8A8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79207FD19A2DDDB0001978A /* User.m in Sources */,
+				A151A5AE19A24C1D00AAD10A /* SettingsTableViewController.m in Sources */,
+				C708E3F019AB17BD002BDE90 /* EditClockTableViewController.m in Sources */,
+				C7F87296199A4FF700306D0E /* ProfileViewController.m in Sources */,
+				C7477CE619932C9800D8A8DB /* ViewController.m in Sources */,
+				C708E3ED19AB0377002BDE90 /* ClockTableViewController.m in Sources */,
+				C703E9FF19B9A1B300FC7B54 /* UsePlist.m in Sources */,
+				C7477CE019932C9800D8A8DB /* AppDelegate.m in Sources */,
+				C7D9336A19ADBE8100584FF9 /* SuggestViewController.m in Sources */,
+				C7F99E8C1994F14F004F54ED /* SportsViewController.m in Sources */,
+				C7477CDC19932C9800D8A8DB /* main.m in Sources */,
+				C7F99E8F1994F15E004F54ED /* AnalyticsViewController.m in Sources */,
+				C708E3EA19AAD417002BDE90 /* SpotLightViewController.m in Sources */,
+				C703EA0219B9A53400FC7B54 /* GetCurrentTime.m in Sources */,
+				C7F99E861994F120004F54ED /* EditProfileViewController.m in Sources */,
+				C7477D0619939C4000D8A8DB /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7477CE919932C9800D8A8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7477CFB19932C9800D8A8DB /* DrinkDreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7477CF319932C9800D8A8DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7477CCB19932C9800D8A8DB /* DrinkDream */;
+			targetProxy = C7477CF219932C9800D8A8DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7477CD819932C9800D8A8DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7477CD919932C9800D8A8DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7477CE119932C9800D8A8DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7477CE219932C9800D8A8DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7477CF719932C9800D8A8DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7477CF819932C9800D8A8DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7477CFC19932C9800D8A8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7477CFD19932C9800D8A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7477CFF19932C9800D8A8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrinkDream/DrinkDream-Prefix.pch";
+				INFOPLIST_FILE = "DrinkDream/DrinkDream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7477D0019932C9800D8A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrinkDream/DrinkDream-Prefix.pch";
+				INFOPLIST_FILE = "DrinkDream/DrinkDream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7477D0219932C9800D8A8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrinkDream.app/DrinkDream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrinkDream/DrinkDream-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DrinkDreamTests/DrinkDreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C7477D0319932C9800D8A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrinkDream.app/DrinkDream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrinkDream/DrinkDream-Prefix.pch";
+				INFOPLIST_FILE = "DrinkDreamTests/DrinkDreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7477CC719932C9800D8A8DB /* Build configuration list for PBXProject "DrinkDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7477CFC19932C9800D8A8DB /* Debug */,
+				C7477CFD19932C9800D8A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7477CFE19932C9800D8A8DB /* Build configuration list for PBXNativeTarget "DrinkDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7477CFF19932C9800D8A8DB /* Debug */,
+				C7477D0019932C9800D8A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7477D0119932C9800D8A8DB /* Build configuration list for PBXNativeTarget "DrinkDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7477D0219932C9800D8A8DB /* Debug */,
+				C7477D0319932C9800D8A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7477CC419932C9800D8A8DB /* Project object */;
+}
